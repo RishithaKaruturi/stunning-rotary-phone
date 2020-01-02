@@ -1,40 +1,48 @@
-
-class Employee
+package com.del.entity;
+import java.sql.Date;
+public class Employee 
 {
-  private int empid;
-  private String ename;
-  double salary;
-  public Employee(){}
-  public Employee(int empid,String ename,double salary)
-  {
-    this.empid = empid;
-    this.ename = ename;
-    this.salary = salary;
-  }
-   public void setEmpid(int Empid)
-  {
-    this.empid=empid;
-  }
-  public void setEname(String ename)
-  {
-    this.ename=ename;
-  }
-  public void setSalary(double salary) 
-  {
-  this.salary=salary;
-  }
-  
-  public int getEmpid {  return empid;  }
-  public String getEname  {  return ename;  }
-  public double getSalary  {  return salary;  }
-}
-class Test
-{
-  public static void main(String args[])
-  {
-   Employee e = new Employee(101,"Ajay",25000);
-   System.out.println("Empid is" +e.getEmpid());
-   System.out.println("Ename is" +e.getEname());
-   System.out.println("Salary is" +e.getSalary());
-  }
+    int empid;
+    String name;
+    double salary;
+    int age;
+    Date doj;
+    public Employee() {}
+	public Employee(int empid, String name, double salary, int age, Date doj) {
+		this.empid = empid;
+		this.name = name;
+		this.salary = salary;
+		this.age = age;
+		this.doj = doj;
+	}
+	public int getEmpid() {
+		return empid;
+	}
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	public int getAge()  {
+		return age;
+	}
+	public void setAge(int age  ) {
+		this.age = age;
+	}
+	public Date getDoj() {
+		return doj;
+	}
+	public void setDoj(Date doj) {
+		this.doj = doj;
+	}
 }
