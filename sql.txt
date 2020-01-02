@@ -1,0 +1,28 @@
+SQL Structured Query Language
+also known as Sequel
+Is a standard to perform operations on RDBMS
+DDL Data Definition Language---create database objects---create,alter,delete
+DML Data Manipulation Language---enter data into the tables---insert,update
+DCL Data Control Language
+TCL Transaction Control Language
+
+constraints are data validation rules
+null
+not null
+unique
+check
+primary key
+foreign key
+
+select statement...
+select all | distinct *|col1,col2,... from table1,table2,...[where condition]
+[group by condition] [having condition]
+
+GROUP FUNCTIONS
+max
+min
+sum
+count
+avg
+
+Joins

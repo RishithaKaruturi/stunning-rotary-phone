@@ -1,0 +1,28 @@
+A stream is an object which can produce and consume data.
+In java streams are unidirectional.
+.Byte Streams
+.Character Streams
+.Buffered Streams
+
+ByteStreams:
+
+    InputStream                                    Output Stream
+FileInputStream                               FileOutputStream 
+FilterInputStream                            FilterOutputStream
+PipedInputStream                           PipedOutputStream
+ObjectInputStream                         ObjectOutputStream
+ByteArrayInputStream                   ByteArrayOutputStream
+DataInputStream                             DataOutputStream
+
+All the ByteStreams can be found in java.io package.
+
+CharacterStreams:
+
+Two topmost classes in the hierarchy of character streams....Reader,Writer.
+
+   Reader                                                  Writer
+FileReader                                           FileWriter
+BufferedReader                                 BufferedWriter
+FilterReader                                        FilterWriter
+PipedReader                                       PipedWriter
+CharArrayReader                              CharArrayWriter
