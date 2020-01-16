@@ -1,0 +1,31 @@
+﻿[BasicInfo]
+Title=Action_Transaction, 15/01/2020 22:20:13
+Transaction=Action_Transaction
+TimeRangeMin=10.000000
+TimeRangeMax=35.000000
+NumFilters=1
+CorrelatedCharts=VuserStateGraph,ErrorsPerSecondByMessage,ErrorsPerSecond,HitsperSecond,Throughput,PageViewPersec,Connections,ConnectionsPerSecond,WindowsResources,UnixResources,ServerResources,SNMP,SiteScope,NetworkMonitorGraph,Oracle,SQLserver,Sybase
+
+[BasicFilter0]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=0.000000
+Dim_1=45.000000
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!,!([Aminimum]-[Think Time])!,!([Amaximum]-[Think Time])!
+
+[TabSheet]
+Visible=1
+ActivePage=0
+
