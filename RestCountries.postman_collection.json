@@ -1,0 +1,493 @@
+{
+	"variables": [],
+	"info": {
+		"name": "RestCountries",
+		"_postman_id": "fd8ae74d-4fb6-5e82-786d-1fe34f34136f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://restcountries.eu/rest/v2/all",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/all",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/alpha?codes=col;no;ee\n\n\n",
+			"request": {
+				"url": {
+					"raw": "https://restcountries.eu/rest/v2/alpha?codes=col;no;ee",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"eu"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"alpha"
+					],
+					"query": [
+						{
+							"key": "codes",
+							"value": "col;no;ee\n\n\n",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/alpha?codes=col;no;ee\n\n\n",
+			"request": {
+				"url": {
+					"raw": "https://restcountries.eu/rest/v2/alpha?codes=col;no;ee",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"eu"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"alpha"
+					],
+					"query": [
+						{
+							"key": "codes",
+							"value": "col;no;ee\n\n\n",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/alpha/col\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/alpha/col\n\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/alpha/col\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/alpha/col\n\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/alpha/co\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/alpha/co\n\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/aruba?fullText=true\n\n",
+			"request": {
+				"url": {
+					"raw": "https://restcountries.eu/rest/v2/name/aruba?fullText=true",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"eu"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"name",
+						"aruba"
+					],
+					"query": [
+						{
+							"key": "fullText",
+							"value": "true\n\n",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/{name}AlbaniafullText=true\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/name/{name}AlbaniafullText=true\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/{name}?fullText=true\n",
+			"request": {
+				"url": {
+					"raw": "https://restcountries.eu/rest/v2/name/{name}?fullText=true",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"eu"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"name",
+						"{name}"
+					],
+					"query": [
+						{
+							"key": "fullText",
+							"value": "true\n",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/united\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/name/united\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/Albania",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/name/Albania",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/eesti",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/name/eesti",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/united\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/name/united\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/Albania",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/name/Albania",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/Albania",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/name/Albania",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/{name}",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/name/{name}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/Afghanistan\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/name/Afghanistan\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/Colombia\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/name/Colombia\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/currency/cop\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/currency/cop\n\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/name/Albania\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/name/Albania\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/lang/es\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/lang/es\n\n",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/lang/es\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/lang/es\n\n",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/lang/es\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/lang/es\n\n",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/lang/es\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/lang/es\n\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/capital/tallinn\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/capital/tallinn\n\n",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/capital/tallinn\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/capital/tallinn\n\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/callingcode/372\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/callingcode/372\n\n",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/callingcode/372\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/callingcode/372\n\n",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/callingcode/372\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/callingcode/372\n\n",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/callingcode/372\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/callingcode/372\n\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/region/europe\n\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/region/europe\n\n\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/region/europe\n\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/region/europe\n\n\n",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/region/europe\n\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/region/europe\n\n\n",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/region/europe\n\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/region/europe\n\n\n",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/regionalbloc/eu\n\n\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/regionalbloc/eu\n\n\n\n",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.eu/rest/v2/regionalbloc/eu\n\n\n\n",
+			"request": {
+				"url": "https://restcountries.eu/rest/v2/regionalbloc/eu\n\n\n\n",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

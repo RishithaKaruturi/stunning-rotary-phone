@@ -1,0 +1,320 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Weather",
+		"_postman_id": "6f113766-1173-a157-064b-2a5675241554",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Weather",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22",
+			"request": {
+				"url": {
+					"raw": "http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22",
+					"protocol": "http",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "London,uk",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22",
+			"request": {
+				"url": {
+					"raw": "http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22",
+					"protocol": "http",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "London,uk",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22http://samples.openweathermap.org/data/2.5/weather?q=London,uk",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://samples.openweathermap.org/data/2.5/weather?id=2172797&appid=b6907d289e10d714a6e88b30761fae22",
+			"request": {
+				"url": {
+					"raw": "http://samples.openweathermap.org/data/2.5/weather?id=2172797&appid=b6907d289e10d714a6e88b30761fae22",
+					"protocol": "http",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2172797",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=b6907d289e10d714a6e88b30761fae22",
+			"request": {
+				"url": {
+					"raw": "http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=b6907d289e10d714a6e88b30761fae22",
+					"protocol": "http",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "35",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "lon",
+							"value": "139",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://samples.openweathermap.org/data/2.5/box/city?bbox=12,32,15,37,10&appid=b6907d289e10d714a6e88b30761fae22",
+			"request": {
+				"url": {
+					"raw": "http://samples.openweathermap.org/data/2.5/box/city?bbox=12,32,15,37,10&appid=b6907d289e10d714a6e88b30761fae22",
+					"protocol": "http",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"box",
+						"city"
+					],
+					"query": [
+						{
+							"key": "bbox",
+							"value": "12,32,15,37,10",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://samples.openweathermap.org/data/2.5/find?lat=55.5&lon=37.5&cnt=10&appid=b6907d289e10d714a6e88b30761fae22",
+			"request": {
+				"url": {
+					"raw": "https://samples.openweathermap.org/data/2.5/find?lat=55.5&lon=37.5&cnt=10&appid=b6907d289e10d714a6e88b30761fae22",
+					"protocol": "https",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"find"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "55.5",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "lon",
+							"value": "37.5",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "cnt",
+							"value": "10",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://samples.openweathermap.org/data/2.5/find?q=London&appid=b6907d289e10d714a6e88b30761fae22",
+			"request": {
+				"url": {
+					"raw": "http://samples.openweathermap.org/data/2.5/find?q=London&appid=b6907d289e10d714a6e88b30761fae22",
+					"protocol": "http",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "London",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
