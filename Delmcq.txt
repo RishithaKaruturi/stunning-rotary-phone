@@ -1,0 +1,35 @@
+                               \\192.168.1.4
+what is the difference between BVT and Defects Life Cycle
+Build verification test is a set of tests run on a new build.
+Defects life cycle is a cycle which a defect undergoes from its creation to destruction
+
+What is the test process and test design
+Test Process contains test planning,designing test cases and prepares for execution
+test design defines how the testing should be done.
+
+what is the differencc between HTTP/SOAP/REST
+Http is a protocol used to send and receive messages
+Soap is a method of transferring messages through http
+Rest uses xml and json to send and receive data
+
+what Kind of tool is selenium in terms of Web based application
+Selenium is a free automated testing suite.
+
+what is the Load Runner suite and selenium suite
+Lrs is used to test before and after deployment
+Selenium suite works on web applications across different browsers
+
+Can selenium scripts be embedded in Load Runner - justify
+yes
+By creating simple java project and by creating an instance of web driver.
+
+Requirement to automate a web based application for the currency validation
+
+1.The User has to validate the currency conversion keeping the base currency in INR as country Name India and display the currency for the various transactions in the opencart and validate the base curreny with populated in the open cart application
+
+2.The input has to be taken for the user for the base currency and checked against the tranaction curreny with valiation on the web based objects
+Count the number of links in the drop down box of the currency
+
+3.capture the validation message for the invalid curreny using the java script alert box or text message
+
+
